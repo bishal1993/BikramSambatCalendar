@@ -22,88 +22,88 @@ public class NepaliCalendar {
     public void setDaysInMonth(final int year) {
         switch (year) {
             case 2080:
-                this.baisakh = new Day[31];
-                this.jestha = new Day[32];
-                this.asar = new Day[31];
-                this.saun = new Day[32];
-                this.bhadau = new Day[31];
-                this.asoj = new Day[30];
-                this.kartik = new Day[30];
-                this.mangsir = new Day[30];
-                this.poush = new Day[29];
-                this.magh = new Day[29];
-                this.falgun = new Day[30];
-                this.chaitra = new Day[30];
+                this.baisakh = fillDaysInMonth(31);
+                this.jestha = fillDaysInMonth(32);
+                this.asar = fillDaysInMonth(31);
+                this.saun = fillDaysInMonth(32);
+                this.bhadau = fillDaysInMonth(31);
+                this.asoj = fillDaysInMonth(30);
+                this.kartik = fillDaysInMonth(30);
+                this.mangsir =fillDaysInMonth(30);
+                this.poush = fillDaysInMonth(29);
+                this.magh = fillDaysInMonth(29);
+                this.falgun =fillDaysInMonth(30);
+                this.chaitra = fillDaysInMonth(30);
                 break;
             case 2081:
-                this.baisakh = new Day[31];
-                this.jestha = new Day[31];
-                this.asar = new Day[32];
-                this.saun = new Day[32];
-                this.bhadau = new Day[31];
-                this.asoj = new Day[30];
-                this.kartik = new Day[30];
-                this.mangsir = new Day[30];
-                this.poush = new Day[29];
-                this.magh = new Day[30];
-                this.falgun = new Day[30];
-                this.chaitra = new Day[30];
+                this.baisakh = fillDaysInMonth(31);
+                this.jestha = fillDaysInMonth(31);
+                this.asar = fillDaysInMonth(32);
+                this.saun = fillDaysInMonth(32);
+                this.bhadau = fillDaysInMonth(31);
+                this.asoj = fillDaysInMonth(30);
+                this.kartik = fillDaysInMonth(30);
+                this.mangsir = fillDaysInMonth(30);
+                this.poush =fillDaysInMonth(29);
+                this.magh = fillDaysInMonth(30);
+                this.falgun = fillDaysInMonth(30);
+                this.chaitra = fillDaysInMonth(30);
                 break;
             case 2082:
-                this.baisakh = new Day[30];
-                this.jestha = new Day[32];
-                this.asar = new Day[31];
-                this.saun = new Day[32];
-                this.bhadau = new Day[31];
-                this.asoj = new Day[30];
-                this.kartik = new Day[30];
-                this.mangsir = new Day[30];
-                this.poush = new Day[29];
-                this.magh = new Day[30];
-                this.falgun = new Day[30];
-                this.chaitra = new Day[30];
+                this.baisakh =fillDaysInMonth(30);
+                this.jestha = fillDaysInMonth(32);
+                this.asar = fillDaysInMonth(31);
+                this.saun = fillDaysInMonth(32);
+                this.bhadau = fillDaysInMonth(31);
+                this.asoj = fillDaysInMonth(30);
+                this.kartik = fillDaysInMonth(30);
+                this.mangsir =fillDaysInMonth(30);
+                this.poush = fillDaysInMonth(29);
+                this.magh = fillDaysInMonth(30);
+                this.falgun = fillDaysInMonth(30);
+                this.chaitra = fillDaysInMonth(30);
                 break;
             case 2083, 2084:
-                this.baisakh = new Day[31];
-                this.jestha = new Day[31];
-                this.asar = new Day[32];
-                this.saun = new Day[31];
-                this.bhadau = new Day[31];
-                this.asoj = new Day[30];
-                this.kartik = new Day[30];
-                this.mangsir = new Day[30];
-                this.poush = new Day[29];
-                this.magh = new Day[30];
-                this.falgun = new Day[30];
-                this.chaitra = new Day[30];
+                this.baisakh = fillDaysInMonth(31);
+                this.jestha = fillDaysInMonth(31);
+                this.asar = fillDaysInMonth(32);
+                this.saun = fillDaysInMonth(31);
+                this.bhadau = fillDaysInMonth(31);
+                this.asoj = fillDaysInMonth(30);
+                this.kartik = fillDaysInMonth(30);
+                this.mangsir = fillDaysInMonth(30);
+                this.poush =fillDaysInMonth(29);
+                this.magh =fillDaysInMonth(30);
+                this.falgun = fillDaysInMonth(30);
+                this.chaitra =fillDaysInMonth(30);
                 break;
             case 2085:
-                this.baisakh = new Day[31];
-                this.jestha = new Day[32];
-                this.asar = new Day[31];
-                this.saun = new Day[32];
-                this.bhadau = new Day[30];
-                this.asoj = new Day[31];
-                this.kartik = new Day[30];
-                this.mangsir = new Day[30];
-                this.poush = new Day[29];
-                this.magh = new Day[30];
-                this.falgun = new Day[30];
-                this.chaitra = new Day[30];
+                this.baisakh = fillDaysInMonth(31);
+                this.jestha =fillDaysInMonth(32);
+                this.asar = fillDaysInMonth(31);
+                this.saun = fillDaysInMonth(32);
+                this.bhadau = fillDaysInMonth(30);
+                this.asoj = fillDaysInMonth(31);
+                this.kartik = fillDaysInMonth(30);
+                this.mangsir = fillDaysInMonth(30);
+                this.poush = fillDaysInMonth(29);
+                this.magh = fillDaysInMonth(30);
+                this.falgun = fillDaysInMonth(30);
+                this.chaitra = fillDaysInMonth(30);
                 break;
             default:
-                this.baisakh = new Day[31];
-                this.jestha = new Day[28];
-                this.asar = new Day[30];
-                this.saun = new Day[30];
-                this.bhadau = new Day[30];
-                this.asoj = new Day[30];
-                this.kartik = new Day[30];
-                this.mangsir = new Day[30];
-                this.poush = new Day[30];
-                this.magh = new Day[30];
-                this.falgun = new Day[30];
-                this.chaitra = new Day[30];
+                this.baisakh = fillDaysInMonth(31);
+                this.jestha = fillDaysInMonth(28);
+                this.asar = fillDaysInMonth(30);
+                this.saun = fillDaysInMonth(30);
+                this.bhadau = fillDaysInMonth(30);
+                this.asoj =fillDaysInMonth(30);
+                this.kartik =fillDaysInMonth(30);
+                this.mangsir = fillDaysInMonth(30);
+                this.poush = fillDaysInMonth(30);
+                this.magh = fillDaysInMonth(30);
+                this.falgun =fillDaysInMonth(30);
+                this.chaitra = fillDaysInMonth(30);
                 break;
 
         }
@@ -168,6 +168,20 @@ public class NepaliCalendar {
             poush.length+ magh.length+ falgun.length+ chaitra.length;
     return totalDays;
     }
+
+    private Day[] fillDaysInMonth( int days){
+
+        Day[] day = new Day[days];
+     //
+        for(int i =0;i<days;i++){
+            day[i]=new Day();
+            day[i].setNepaliNumberDay(i+1);
+        }
+        //System.out.println("-->"+day[30].getNepaliNumberDay());
+        return day;
+    }
+
+
 }
 
 // 2081

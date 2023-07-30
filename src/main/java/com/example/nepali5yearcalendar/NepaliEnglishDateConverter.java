@@ -55,14 +55,13 @@ public class NepaliEnglishDateConverter {
     }
 
 
-    public static void main(String [] args){
-       System.out.println(findDaysInAllYears());
-       System.out.println(calendar2080.totalDaysInYear());
-       System.out.println(calendar2081.getBaisakh().length);
-       System.out.println(calendar2082.getJestha().length);
-       System.out.println(calendar2083.getAsar().length);
-
-
-
+    public static void main(String[] args) {
+        System.out.println(findDaysInAllYears());
+        System.out.println(calendar2080.totalDaysInYear());
+        System.out.println(calendar2081.getBaisakh()[10].getNepaliNumberDay());
+        System.out.println(calendar2082.getJestha().length);
+        System.out.println(calendar2083.getAsar().length);
     }
+
+
 }

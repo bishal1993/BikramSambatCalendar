@@ -4,6 +4,9 @@ public class Day {
 
     private String tithi;
 
+    private EnglishMonth englishMonth;
+    private  NepaliMonth nepaliMonth;
+
     private  String englishFirstMonth;
     private String englishSecondMonth;
     private int nepaliNumberDay;
@@ -16,6 +19,28 @@ public class Day {
         this.englishSecondMonth = englishSecondMonth;
         this.nepaliNumberDay = nepaliNumberDay;
         this.englishNumberDay = englishNumberDay;
+    }
+
+    public Day() {
+    }
+
+    public Day(String tithi, EnglishMonth englishMonth, NepaliMonth nepaliMonth, String englishFirstMonth, String englishSecondMonth, int nepaliNumberDay, int englishNumberDay) {
+        this.tithi = tithi;
+        this.englishMonth = englishMonth;
+        this.nepaliMonth = nepaliMonth;
+        this.englishFirstMonth = englishFirstMonth;
+        this.englishSecondMonth = englishSecondMonth;
+        this.nepaliNumberDay = nepaliNumberDay;
+        this.englishNumberDay = englishNumberDay;
+    }
+
+    public Day(int nepaliNumberDay, int englishNumberDay) {
+        this.nepaliNumberDay = nepaliNumberDay;
+        this.englishNumberDay = englishNumberDay;
+    }
+
+    public Day(int nepaliNumberDay) {
+        this.nepaliNumberDay = nepaliNumberDay;
     }
 
 
@@ -50,4 +75,22 @@ public class Day {
     public void setEnglishNumberDay(int englishNumberDay) {
         this.englishNumberDay = englishNumberDay;
     }
+
+    public void setEnglishMonth(EnglishMonth englishMonth) {
+        this.englishMonth = englishMonth;
+    }
+
+    public void setNepaliMonth(NepaliMonth nepaliMonth) {
+        this.nepaliMonth = nepaliMonth;
+    }
+
+    public void setEnglishFirstMonth(String englishFirstMonth) {
+        this.englishFirstMonth = englishFirstMonth;
+    }
+
+    public void setEnglishSecondMonth(String englishSecondMonth) {
+        this.englishSecondMonth = englishSecondMonth;
+    }
+
+
 }
