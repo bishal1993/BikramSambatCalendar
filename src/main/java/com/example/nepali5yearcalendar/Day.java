@@ -7,29 +7,20 @@ public class Day {
     private EnglishMonth englishMonth;
     private  NepaliMonth nepaliMonth;
 
-    private  String englishFirstMonth;
-    private String englishSecondMonth;
+
+
     private int nepaliNumberDay;
 
     private int englishNumberDay;
 
-    public Day(String tithi, String englishFirstMonth, String englishSecondMonth, int nepaliNumberDay, int englishNumberDay) {
-        this.tithi = tithi;
-        this.englishFirstMonth = englishFirstMonth;
-        this.englishSecondMonth = englishSecondMonth;
-        this.nepaliNumberDay = nepaliNumberDay;
-        this.englishNumberDay = englishNumberDay;
-    }
 
     public Day() {
     }
 
-    public Day(String tithi, EnglishMonth englishMonth, NepaliMonth nepaliMonth, String englishFirstMonth, String englishSecondMonth, int nepaliNumberDay, int englishNumberDay) {
+    public Day(String tithi, EnglishMonth englishMonth, NepaliMonth nepaliMonth, int nepaliNumberDay, int englishNumberDay) {
         this.tithi = tithi;
         this.englishMonth = englishMonth;
         this.nepaliMonth = nepaliMonth;
-        this.englishFirstMonth = englishFirstMonth;
-        this.englishSecondMonth = englishSecondMonth;
         this.nepaliNumberDay = nepaliNumberDay;
         this.englishNumberDay = englishNumberDay;
     }
@@ -44,13 +35,7 @@ public class Day {
     }
 
 
-    public String getEnglishFirstMonth() {
-        return englishFirstMonth;
-    }
 
-    public String getEnglishSecondMonth() {
-        return englishSecondMonth;
-    }
 
     public String getTithi() {
         return tithi;
@@ -80,17 +65,19 @@ public class Day {
         this.englishMonth = englishMonth;
     }
 
+    public EnglishMonth getEnglishMonth() {
+        return englishMonth;
+    }
+
+    public NepaliMonth getNepaliMonth() {
+        return nepaliMonth;
+    }
+
     public void setNepaliMonth(NepaliMonth nepaliMonth) {
         this.nepaliMonth = nepaliMonth;
     }
 
-    public void setEnglishFirstMonth(String englishFirstMonth) {
-        this.englishFirstMonth = englishFirstMonth;
-    }
 
-    public void setEnglishSecondMonth(String englishSecondMonth) {
-        this.englishSecondMonth = englishSecondMonth;
-    }
 
 
 }

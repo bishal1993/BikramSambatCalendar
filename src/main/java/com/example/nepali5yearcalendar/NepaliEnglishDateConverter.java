@@ -57,10 +57,18 @@ public class NepaliEnglishDateConverter {
 
     public static void main(String[] args) {
         System.out.println(findDaysInAllYears());
-        System.out.println(calendar2080.totalDaysInYear());
-        System.out.println(calendar2081.getBaisakh()[10].getNepaliNumberDay());
-        System.out.println(calendar2082.getJestha().length);
-        System.out.println(calendar2083.getAsar().length);
+        System.out.println("2080 "+calendar2080.totalDaysInYear());
+        System.out.println("2081 "+calendar2081.totalDaysInYear());
+        System.out.println("2082 "+calendar2082.totalDaysInYear());
+        System.out.println("2083 "+calendar2083.totalDaysInYear());
+        System.out.println("2084 "+calendar2084.totalDaysInYear());
+        System.out.println("2085 "+calendar2085.totalDaysInYear());
+
+
+        System.out.println("-->"+calendar2081.getBaisakh()[1].getNepaliNumberDay());
+        System.out.println("-->"+calendar2081.getBaisakh()[1].getEnglishMonth());
+        System.out.println("-->"+calendar2081.getBaisakh()[2].getEnglishMonth());
+
     }
 
 

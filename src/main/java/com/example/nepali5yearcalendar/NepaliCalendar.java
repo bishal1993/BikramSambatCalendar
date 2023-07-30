@@ -22,88 +22,117 @@ public class NepaliCalendar {
     public void setDaysInMonth(final int year) {
         switch (year) {
             case 2080:
-                this.baisakh = fillDaysInMonth(31);
-                this.jestha = fillDaysInMonth(32);
-                this.asar = fillDaysInMonth(31);
-                this.saun = fillDaysInMonth(32);
-                this.bhadau = fillDaysInMonth(31);
-                this.asoj = fillDaysInMonth(30);
-                this.kartik = fillDaysInMonth(30);
-                this.mangsir =fillDaysInMonth(30);
-                this.poush = fillDaysInMonth(29);
-                this.magh = fillDaysInMonth(29);
-                this.falgun =fillDaysInMonth(30);
-                this.chaitra = fillDaysInMonth(30);
+
+                this.baisakh = fillDaysInMonth(31, NepaliMonth.BAISAKH, 17, EnglishMonth.APRIL, EnglishMonth.MAY);
+
+                this.jestha = fillDaysInMonth(32, NepaliMonth.JESTHA, 17, EnglishMonth.MAY, EnglishMonth.JUNE);
+                this.asar = fillDaysInMonth(31, NepaliMonth.ASAR, 15, EnglishMonth.JUNE, EnglishMonth.JULY);
+                this.saun = fillDaysInMonth(32, NepaliMonth.SHRAWAN, 14, EnglishMonth.JULY, EnglishMonth.AUGUST);
+                this.bhadau = fillDaysInMonth(31, NepaliMonth.BHADAU, 14, EnglishMonth.AUGUST, EnglishMonth.SEPTEMBER);
+                this.asoj = fillDaysInMonth(30, NepaliMonth.ASOJ, 13, EnglishMonth.SEPTEMBER, EnglishMonth.OCTOBER);
+                this.kartik = fillDaysInMonth(30, NepaliMonth.KARTIK, 14, EnglishMonth.OCTOBER, EnglishMonth.NOVEMBER);
+                this.mangsir = fillDaysInMonth(30, NepaliMonth.MANGSIR, 14, EnglishMonth.NOVEMBER, EnglishMonth.DECEMBER);
+                this.poush = fillDaysInMonth(29, NepaliMonth.POUSH, 15, EnglishMonth.DECEMBER, EnglishMonth.JANUARY);
+                this.magh = fillDaysInMonth(29, NepaliMonth.MAGH, 17, EnglishMonth.JANUARY, EnglishMonth.FEBRUARY);
+                this.falgun = fillDaysInMonth(30, NepaliMonth.FALGUN, 17, EnglishMonth.FEBRUARY, EnglishMonth.MARCH);
+                this.chaitra = fillDaysInMonth(30, NepaliMonth.CHAIT, 18, EnglishMonth.MARCH, EnglishMonth.APRIL);
                 break;
             case 2081:
-                this.baisakh = fillDaysInMonth(31);
-                this.jestha = fillDaysInMonth(31);
-                this.asar = fillDaysInMonth(32);
-                this.saun = fillDaysInMonth(32);
-                this.bhadau = fillDaysInMonth(31);
-                this.asoj = fillDaysInMonth(30);
-                this.kartik = fillDaysInMonth(30);
-                this.mangsir = fillDaysInMonth(30);
-                this.poush =fillDaysInMonth(29);
-                this.magh = fillDaysInMonth(30);
-                this.falgun = fillDaysInMonth(30);
-                this.chaitra = fillDaysInMonth(30);
+
+                this.baisakh = fillDaysInMonth(31, NepaliMonth.BAISAKH, 18, EnglishMonth.APRIL, EnglishMonth.MAY);
+                this.jestha = fillDaysInMonth(31, NepaliMonth.JESTHA, 18, EnglishMonth.MAY, EnglishMonth.JUNE);
+                this.asar = fillDaysInMonth(32, NepaliMonth.ASAR, 17, EnglishMonth.JUNE, EnglishMonth.JULY);
+                this.saun = fillDaysInMonth(32, NepaliMonth.SHRAWAN, 16, EnglishMonth.JULY, EnglishMonth.AUGUST);
+                this.bhadau = fillDaysInMonth(31, NepaliMonth.BHADAU, 15, EnglishMonth.AUGUST, EnglishMonth.SEPTEMBER);
+                this.asoj = fillDaysInMonth(30, NepaliMonth.ASOJ, 14, EnglishMonth.SEPTEMBER, EnglishMonth.OCTOBER);
+                this.kartik = fillDaysInMonth(30, NepaliMonth.KARTIK, 15, EnglishMonth.OCTOBER, EnglishMonth.NOVEMBER);
+                this.mangsir = fillDaysInMonth(30, NepaliMonth.MANGSIR, 15, EnglishMonth.NOVEMBER, EnglishMonth.DECEMBER);
+                this.poush = fillDaysInMonth(29, NepaliMonth.POUSH, 16, EnglishMonth.DECEMBER, EnglishMonth.JANUARY);
+                this.magh = fillDaysInMonth(30, NepaliMonth.MAGH, 18, EnglishMonth.JANUARY, EnglishMonth.FEBRUARY);
+                this.falgun = fillDaysInMonth(30, NepaliMonth.FALGUN, 16, EnglishMonth.FEBRUARY, EnglishMonth.MARCH);
+                this.chaitra = fillDaysInMonth(30, NepaliMonth.CHAIT, 17, EnglishMonth.MARCH, EnglishMonth.APRIL);
                 break;
             case 2082:
-                this.baisakh =fillDaysInMonth(30);
-                this.jestha = fillDaysInMonth(32);
-                this.asar = fillDaysInMonth(31);
-                this.saun = fillDaysInMonth(32);
-                this.bhadau = fillDaysInMonth(31);
-                this.asoj = fillDaysInMonth(30);
-                this.kartik = fillDaysInMonth(30);
-                this.mangsir =fillDaysInMonth(30);
-                this.poush = fillDaysInMonth(29);
-                this.magh = fillDaysInMonth(30);
-                this.falgun = fillDaysInMonth(30);
-                this.chaitra = fillDaysInMonth(30);
+
+
+                this.baisakh = fillDaysInMonth(30, NepaliMonth.BAISAKH, 17, EnglishMonth.APRIL, EnglishMonth.MAY);
+                this.jestha = fillDaysInMonth(32, NepaliMonth.JESTHA, 18, EnglishMonth.MAY, EnglishMonth.JUNE);
+                this.asar = fillDaysInMonth(31, NepaliMonth.ASAR, 16, EnglishMonth.JUNE, EnglishMonth.JULY);
+                this.saun = fillDaysInMonth(32, NepaliMonth.SHRAWAN, 16, EnglishMonth.JULY, EnglishMonth.AUGUST);
+                this.bhadau = fillDaysInMonth(31, NepaliMonth.BHADAU, 15, EnglishMonth.AUGUST, EnglishMonth.SEPTEMBER);
+                this.asoj = fillDaysInMonth(30, NepaliMonth.ASOJ, 14, EnglishMonth.SEPTEMBER, EnglishMonth.OCTOBER);
+                this.kartik = fillDaysInMonth(30, NepaliMonth.KARTIK, 15, EnglishMonth.OCTOBER, EnglishMonth.NOVEMBER);
+                this.mangsir = fillDaysInMonth(30, NepaliMonth.MANGSIR, 15, EnglishMonth.NOVEMBER, EnglishMonth.DECEMBER);
+                this.poush = fillDaysInMonth(29, NepaliMonth.POUSH, 16, EnglishMonth.DECEMBER, EnglishMonth.JANUARY);
+                this.magh = fillDaysInMonth(30, NepaliMonth.MAGH, 18, EnglishMonth.JANUARY, EnglishMonth.FEBRUARY);
+                this.falgun = fillDaysInMonth(30, NepaliMonth.FALGUN, 16, EnglishMonth.FEBRUARY, EnglishMonth.MARCH);
+                this.chaitra = fillDaysInMonth(30, NepaliMonth.CHAIT, 17, EnglishMonth.MARCH, EnglishMonth.APRIL);
+
+
                 break;
-            case 2083, 2084:
-                this.baisakh = fillDaysInMonth(31);
-                this.jestha = fillDaysInMonth(31);
-                this.asar = fillDaysInMonth(32);
-                this.saun = fillDaysInMonth(31);
-                this.bhadau = fillDaysInMonth(31);
-                this.asoj = fillDaysInMonth(30);
-                this.kartik = fillDaysInMonth(30);
-                this.mangsir = fillDaysInMonth(30);
-                this.poush =fillDaysInMonth(29);
-                this.magh =fillDaysInMonth(30);
-                this.falgun = fillDaysInMonth(30);
-                this.chaitra =fillDaysInMonth(30);
+            case 2083:
+
+                this.baisakh = fillDaysInMonth(31, NepaliMonth.BAISAKH, 17, EnglishMonth.APRIL, EnglishMonth.MAY);
+                this.jestha = fillDaysInMonth(31, NepaliMonth.JESTHA, 17, EnglishMonth.MAY, EnglishMonth.JUNE);
+                this.asar = fillDaysInMonth(32, NepaliMonth.ASAR, 16, EnglishMonth.JUNE, EnglishMonth.JULY);
+                this.saun = fillDaysInMonth(31, NepaliMonth.SHRAWAN, 15, EnglishMonth.JULY, EnglishMonth.AUGUST);
+                this.bhadau = fillDaysInMonth(31, NepaliMonth.BHADAU, 15, EnglishMonth.AUGUST, EnglishMonth.SEPTEMBER);
+                this.asoj = fillDaysInMonth(30, NepaliMonth.ASOJ, 14, EnglishMonth.SEPTEMBER, EnglishMonth.OCTOBER);
+                this.kartik = fillDaysInMonth(30, NepaliMonth.KARTIK, 15, EnglishMonth.OCTOBER, EnglishMonth.NOVEMBER);
+                this.mangsir = fillDaysInMonth(30, NepaliMonth.MANGSIR, 15, EnglishMonth.NOVEMBER, EnglishMonth.DECEMBER);
+                this.poush = fillDaysInMonth(29, NepaliMonth.POUSH, 16, EnglishMonth.DECEMBER, EnglishMonth.JANUARY);
+                this.magh = fillDaysInMonth(30, NepaliMonth.MAGH, 18, EnglishMonth.JANUARY, EnglishMonth.FEBRUARY);
+                this.falgun = fillDaysInMonth(30, NepaliMonth.FALGUN, 16, EnglishMonth.FEBRUARY, EnglishMonth.MARCH);
+                this.chaitra = fillDaysInMonth(30, NepaliMonth.CHAIT, 17, EnglishMonth.MARCH, EnglishMonth.APRIL);
+
+
+                break;
+            case 2084:
+                this.baisakh = fillDaysInMonth(31, NepaliMonth.BAISAKH, 17, EnglishMonth.APRIL, EnglishMonth.MAY);
+                this.jestha = fillDaysInMonth(31, NepaliMonth.JESTHA, 17, EnglishMonth.MAY, EnglishMonth.JUNE);
+                this.asar = fillDaysInMonth(32, NepaliMonth.ASAR, 16, EnglishMonth.JUNE, EnglishMonth.JULY);
+                this.saun = fillDaysInMonth(31, NepaliMonth.SHRAWAN, 15, EnglishMonth.JULY, EnglishMonth.AUGUST);
+                this.bhadau = fillDaysInMonth(31, NepaliMonth.BHADAU, 15, EnglishMonth.AUGUST, EnglishMonth.SEPTEMBER);
+                this.asoj = fillDaysInMonth(30, NepaliMonth.ASOJ, 14, EnglishMonth.SEPTEMBER, EnglishMonth.OCTOBER);
+                this.kartik = fillDaysInMonth(30, NepaliMonth.KARTIK, 15, EnglishMonth.OCTOBER, EnglishMonth.NOVEMBER);
+                this.mangsir = fillDaysInMonth(30, NepaliMonth.MANGSIR, 15, EnglishMonth.NOVEMBER, EnglishMonth.DECEMBER);
+                this.poush = fillDaysInMonth(29, NepaliMonth.POUSH, 16, EnglishMonth.DECEMBER, EnglishMonth.JANUARY);
+                this.magh = fillDaysInMonth(30, NepaliMonth.MAGH, 18, EnglishMonth.JANUARY, EnglishMonth.FEBRUARY);
+                this.falgun = fillDaysInMonth(30, NepaliMonth.FALGUN, 17, EnglishMonth.FEBRUARY, EnglishMonth.MARCH);
+                this.chaitra = fillDaysInMonth(30, NepaliMonth.CHAIT, 18, EnglishMonth.MARCH, EnglishMonth.APRIL);
+
+
                 break;
             case 2085:
-                this.baisakh = fillDaysInMonth(31);
-                this.jestha =fillDaysInMonth(32);
-                this.asar = fillDaysInMonth(31);
-                this.saun = fillDaysInMonth(32);
-                this.bhadau = fillDaysInMonth(30);
-                this.asoj = fillDaysInMonth(31);
-                this.kartik = fillDaysInMonth(30);
-                this.mangsir = fillDaysInMonth(30);
-                this.poush = fillDaysInMonth(29);
-                this.magh = fillDaysInMonth(30);
-                this.falgun = fillDaysInMonth(30);
-                this.chaitra = fillDaysInMonth(30);
-                break;
+                this.baisakh = fillDaysInMonth(31, NepaliMonth.BAISAKH, 18, EnglishMonth.APRIL, EnglishMonth.MAY);
+                this.jestha = fillDaysInMonth(32, NepaliMonth.JESTHA, 18, EnglishMonth.MAY, EnglishMonth.JUNE);
+                this.asar = fillDaysInMonth(31, NepaliMonth.ASAR, 16, EnglishMonth.JUNE, EnglishMonth.JULY);
+                this.saun = fillDaysInMonth(32, NepaliMonth.SHRAWAN, 16, EnglishMonth.JULY, EnglishMonth.AUGUST);
+                this.bhadau = fillDaysInMonth(30, NepaliMonth.BHADAU, 15, EnglishMonth.AUGUST, EnglishMonth.SEPTEMBER);
+                this.asoj = fillDaysInMonth(31, NepaliMonth.ASOJ, 15, EnglishMonth.SEPTEMBER, EnglishMonth.OCTOBER);
+                this.kartik = fillDaysInMonth(30, NepaliMonth.KARTIK, 15, EnglishMonth.OCTOBER, EnglishMonth.NOVEMBER);
+                this.mangsir = fillDaysInMonth(30, NepaliMonth.MANGSIR, 15, EnglishMonth.NOVEMBER, EnglishMonth.DECEMBER);
+                this.poush = fillDaysInMonth(29, NepaliMonth.POUSH, 16, EnglishMonth.DECEMBER, EnglishMonth.JANUARY);
+                this.magh = fillDaysInMonth(30, NepaliMonth.MAGH, 18, EnglishMonth.JANUARY, EnglishMonth.FEBRUARY);
+                this.falgun = fillDaysInMonth(30, NepaliMonth.FALGUN, 16, EnglishMonth.FEBRUARY, EnglishMonth.MARCH);
+                this.chaitra = fillDaysInMonth(30, NepaliMonth.CHAIT, 17, EnglishMonth.MARCH, EnglishMonth.APRIL);
+                    break;
+
             default:
-                this.baisakh = fillDaysInMonth(31);
-                this.jestha = fillDaysInMonth(28);
-                this.asar = fillDaysInMonth(30);
-                this.saun = fillDaysInMonth(30);
-                this.bhadau = fillDaysInMonth(30);
-                this.asoj =fillDaysInMonth(30);
-                this.kartik =fillDaysInMonth(30);
-                this.mangsir = fillDaysInMonth(30);
-                this.poush = fillDaysInMonth(30);
-                this.magh = fillDaysInMonth(30);
-                this.falgun =fillDaysInMonth(30);
-                this.chaitra = fillDaysInMonth(30);
+                this.baisakh = fillDaysInMonth(31, NepaliMonth.BAISAKH, 17, EnglishMonth.APRIL, EnglishMonth.MAY);
+                this.jestha = fillDaysInMonth(31, NepaliMonth.JESTHA, 17, EnglishMonth.MAY, EnglishMonth.JUNE);
+                this.asar = fillDaysInMonth(32, NepaliMonth.ASAR, 16, EnglishMonth.JUNE, EnglishMonth.JULY);
+                this.saun = fillDaysInMonth(31, NepaliMonth.SHRAWAN, 15, EnglishMonth.JULY, EnglishMonth.AUGUST);
+                this.bhadau = fillDaysInMonth(31, NepaliMonth.BHADAU, 15, EnglishMonth.AUGUST, EnglishMonth.SEPTEMBER);
+                this.asoj = fillDaysInMonth(30, NepaliMonth.ASOJ, 14, EnglishMonth.SEPTEMBER, EnglishMonth.OCTOBER);
+                this.kartik = fillDaysInMonth(30, NepaliMonth.KARTIK, 15, EnglishMonth.OCTOBER, EnglishMonth.NOVEMBER);
+                this.mangsir = fillDaysInMonth(30, NepaliMonth.MANGSIR, 15, EnglishMonth.NOVEMBER, EnglishMonth.DECEMBER);
+                this.poush = fillDaysInMonth(29, NepaliMonth.POUSH, 16, EnglishMonth.DECEMBER, EnglishMonth.JANUARY);
+                this.magh = fillDaysInMonth(30, NepaliMonth.MAGH, 18, EnglishMonth.JANUARY, EnglishMonth.FEBRUARY);
+                this.falgun = fillDaysInMonth(30, NepaliMonth.FALGUN, 16, EnglishMonth.FEBRUARY, EnglishMonth.MARCH);
+                this.chaitra = fillDaysInMonth(30, NepaliMonth.CHAIT, 17, EnglishMonth.MARCH, EnglishMonth.APRIL);
+
+
                 break;
 
         }
@@ -169,13 +198,19 @@ public class NepaliCalendar {
     return totalDays;
     }
 
-    private Day[] fillDaysInMonth( int days){
+    private Day[] fillDaysInMonth(int days, NepaliMonth nepaliMonth, int firstEnglishDateEnd, EnglishMonth firstEnglishMonth, EnglishMonth secondEnglishMonth) {
 
         Day[] day = new Day[days];
-     //
-        for(int i =0;i<days;i++){
-            day[i]=new Day();
-            day[i].setNepaliNumberDay(i+1);
+        //
+        for (int i = 0; i < days; i++) {
+            day[i] = new Day();
+            day[i].setNepaliNumberDay(i + 1);
+            day[i].setNepaliMonth(nepaliMonth);
+            if (i < firstEnglishDateEnd) {
+                day[i].setEnglishMonth(firstEnglishMonth);
+            } else {
+                day[i].setEnglishMonth(secondEnglishMonth);
+            }
         }
         //System.out.println("-->"+day[30].getNepaliNumberDay());
         return day;
