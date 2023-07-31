@@ -58,16 +58,30 @@ public class NepaliEnglishDateConverter {
     public static void main(String[] args) {
         System.out.println(findDaysInAllYears());
         System.out.println("2080 "+calendar2080.totalDaysInYear());
-        System.out.println("2081 "+calendar2081.totalDaysInYear());
-        System.out.println("2082 "+calendar2082.totalDaysInYear());
-        System.out.println("2083 "+calendar2083.totalDaysInYear());
-        System.out.println("2084 "+calendar2084.totalDaysInYear());
-        System.out.println("2085 "+calendar2085.totalDaysInYear());
 
 
-        System.out.println("-->"+calendar2081.getBaisakh()[1].getNepaliNumberDay());
-        System.out.println("-->"+calendar2081.getBaisakh()[1].getEnglishMonth());
-        System.out.println("-->"+calendar2081.getBaisakh()[2].getEnglishMonth());
+
+        System.out.println("-->"+calendar2081.getBaisakh()[15].getNepaliNumberDay());
+        System.out.println("-->"+calendar2081.getBaisakh()[15].getEnglishMonth());
+        System.out.println("-->"+calendar2081.getBaisakh()[15].getEnglishNumberDay());
+        System.out.println("");
+        System.out.println("-->"+calendar2081.getBaisakh()[16].getNepaliNumberDay());
+        System.out.println("-->"+calendar2081.getBaisakh()[16].getEnglishMonth());
+        System.out.println("-->"+calendar2081.getBaisakh()[16].getEnglishNumberDay());
+        System.out.println("");
+        System.out.println("-->"+calendar2081.getBaisakh()[17].getNepaliNumberDay());
+        System.out.println("-->"+calendar2081.getBaisakh()[17].getEnglishMonth());
+        System.out.println("-->"+calendar2081.getBaisakh()[17].getEnglishNumberDay());
+        System.out.println("");
+        System.out.println("-->"+calendar2081.getBaisakh()[18].getNepaliNumberDay());
+        System.out.println("-->"+calendar2081.getBaisakh()[18].getEnglishMonth());
+        System.out.println("-->"+calendar2081.getBaisakh()[18].getEnglishNumberDay());
+        System.out.println("");
+        System.out.println("-->"+calendar2081.getBaisakh()[19].getNepaliNumberDay());
+        System.out.println("-->"+calendar2081.getBaisakh()[19].getEnglishMonth());
+        System.out.println("-->"+calendar2081.getBaisakh()[19].getEnglishNumberDay());
+        System.out.println("");
+
 
     }
 

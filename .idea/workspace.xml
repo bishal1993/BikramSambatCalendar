@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="904c9caa-35b2-433d-a5e3-337801669eff" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/nepali5yearcalendar/Day.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/nepali5yearcalendar/Day.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/nepali5yearcalendar/NepaliCalendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/nepali5yearcalendar/NepaliCalendar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/nepali5yearcalendar/NepaliEnglishDateConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/nepali5yearcalendar/NepaliEnglishDateConverter.java" afterDir="false" />
     </list>
@@ -94,11 +93,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/example/nepali5yearcalendar/NepaliCalendar.java</url>
           <line>194</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/nepali5yearcalendar/NepaliEnglishDateConverter.java</url>
-          <line>64</line>
-          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
