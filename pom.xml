@@ -70,7 +70,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                com.example.nepali5yearcalendar/com.example.nepali5yearcalendar.HelloApplication
+                                com.example.nepali5yearcalendar/com.example.nepali5yearcalendar.CalendarStarter
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>

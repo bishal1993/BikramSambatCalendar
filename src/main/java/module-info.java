@@ -5,6 +5,6 @@ module com.example.nepali5yearcalendar {
     requires org.controlsfx.controls;
     requires org.kordamp.bootstrapfx.core;
 
-    opens com.example.nepali5yearcalendar to javafx.fxml;
+    opens com.example.nepali5yearcalendar.controller to javafx.fxml;
     exports com.example.nepali5yearcalendar;
 }
